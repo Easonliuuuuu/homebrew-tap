@@ -1,29 +1,22 @@
 {
-  "version": "0.6.1",
-  "description": "Read-only vSphere estate assessment and diagnostics across every vCenter",
-  "homepage": "https://github.com/Easonliuuuuu/vsfleet",
-  "license": "MIT",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/Easonliuuuuu/vsfleet/releases/download/v0.6.1/vsfleet_0.6.1_windows_amd64.zip",
-      "hash": "6388a2556b44d34774f8bd5d9b5b2f2e16bbebff72ddc027574929827aa2b283",
-      "bin": "vsfleet.exe"
-    },
-    "arm64": {
-      "url": "https://github.com/Easonliuuuuu/vsfleet/releases/download/v0.6.1/vsfleet_0.6.1_windows_arm64.zip",
-      "hash": "1341e6b873fd176ce5027a038c91ce740fcff913993cd6d46cd6c442be5b33fc",
-      "bin": "vsfleet.exe"
-    }
-  },
-  "checkver": "github",
-  "autoupdate": {
+    "version": "0.6.2",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/Easonliuuuuu/vsfleet/releases/download/v$version/vsfleet_$version_windows_amd64.zip"
-      },
-      "arm64": {
-        "url": "https://github.com/Easonliuuuuu/vsfleet/releases/download/v$version/vsfleet_$version_windows_arm64.zip"
-      }
-    }
-  }
+        "64bit": {
+            "url": "https://github.com/Easonliuuuuu/vsfleet/releases/download/v0.6.2/vsfleet_0.6.2_windows_amd64.zip",
+            "bin": [
+                "vsfleet.exe"
+            ],
+            "hash": "135c2fd72e1b5fb113b79bd812b691aa89f2b9a245fefa1a826985f8bda80257"
+        },
+        "arm64": {
+            "url": "https://github.com/Easonliuuuuu/vsfleet/releases/download/v0.6.2/vsfleet_0.6.2_windows_arm64.zip",
+            "bin": [
+                "vsfleet.exe"
+            ],
+            "hash": "8a07d13b4cbb826a342036a2570eff43c04ae9c852d4acc6c8ee928cd452a5f6"
+        }
+    },
+    "homepage": "https://github.com/Easonliuuuuu/vsfleet",
+    "license": "MIT",
+    "description": "Read-only vSphere estate assessment and diagnostics across every vCenter"
 }
