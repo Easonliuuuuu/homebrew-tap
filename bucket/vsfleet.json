@@ -1,19 +1,19 @@
 {
-    "version": "0.6.4",
+    "version": "0.7.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Easonliuuuuu/vsfleet/releases/download/v0.6.4/vsfleet_0.6.4_windows_amd64.zip",
+            "url": "https://github.com/Easonliuuuuu/vsfleet/releases/download/v0.7.0/vsfleet_0.7.0_windows_amd64.zip",
             "bin": [
                 "vsfleet.exe"
             ],
-            "hash": "ad91e6502f5369ef58e13f40d7bddd92253ae53a9315b83343619a8caa9b8161"
+            "hash": "17a4090c2de9bfa2fee311986be4761fe557c328ed17235713d9293389c6d5e4"
         },
         "arm64": {
-            "url": "https://github.com/Easonliuuuuu/vsfleet/releases/download/v0.6.4/vsfleet_0.6.4_windows_arm64.zip",
+            "url": "https://github.com/Easonliuuuuu/vsfleet/releases/download/v0.7.0/vsfleet_0.7.0_windows_arm64.zip",
             "bin": [
                 "vsfleet.exe"
             ],
-            "hash": "f7ed034c950f88c08e7f02efdbb96f3544ea3c38d4c3249ce52ff2df6e292fc9"
+            "hash": "ad432d35654226e0d9db35d7f07b5e0eca98ddb0478a97cb8244c94601d8c4ad"
         }
     },
     "homepage": "https://github.com/Easonliuuuuu/vsfleet",
