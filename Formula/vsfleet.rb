@@ -5,21 +5,21 @@
 class Vsfleet < Formula
   desc "Read-only vSphere estate assessment and diagnostics across every vCenter"
   homepage "https://github.com/Easonliuuuuu/vsfleet"
-  version "0.7.0"
+  version "0.7.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/Easonliuuuuu/vsfleet/releases/download/v0.7.0/vsfleet_0.7.0_darwin_amd64.tar.gz"
-      sha256 "29b1d32486da93408003feb42b2c60ff211c0b879c4c7d9c89c1f1b80a819f84"
+      url "https://github.com/Easonliuuuuu/vsfleet/releases/download/v0.7.1/vsfleet_0.7.1_darwin_amd64.tar.gz"
+      sha256 "556e1bab07410bf9010718d470467e534c763a58989893d10a0448b2c54ad81a"
 
       define_method(:install) do
         bin.install "vsfleet"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/Easonliuuuuu/vsfleet/releases/download/v0.7.0/vsfleet_0.7.0_darwin_arm64.tar.gz"
-      sha256 "91c5f7e666a2a4286a16ab6bbad86a3fb4a1e35e4713d133196198a3e1fa95da"
+      url "https://github.com/Easonliuuuuu/vsfleet/releases/download/v0.7.1/vsfleet_0.7.1_darwin_arm64.tar.gz"
+      sha256 "df33f7aeab84c9894dffac7af6c4b36d5312344ee184c7262da72e2537378d8d"
 
       define_method(:install) do
         bin.install "vsfleet"
@@ -29,15 +29,15 @@ class Vsfleet < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/Easonliuuuuu/vsfleet/releases/download/v0.7.0/vsfleet_0.7.0_linux_amd64.tar.gz"
-      sha256 "5401018ace3a77c01ce6e3b1524a647aff1b20914069385ad546121b03aaa964"
+      url "https://github.com/Easonliuuuuu/vsfleet/releases/download/v0.7.1/vsfleet_0.7.1_linux_amd64.tar.gz"
+      sha256 "12a5e1fec6c3081a84f54c104e3fcac870868e3e1150268377c678dad7596b4e"
       define_method(:install) do
         bin.install "vsfleet"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/Easonliuuuuu/vsfleet/releases/download/v0.7.0/vsfleet_0.7.0_linux_arm64.tar.gz"
-      sha256 "d68e7e2e62a8831ee4a53cfbe895ec10b74aa67fceda47bb8882492828f829ab"
+      url "https://github.com/Easonliuuuuu/vsfleet/releases/download/v0.7.1/vsfleet_0.7.1_linux_arm64.tar.gz"
+      sha256 "f2129330fe91ef4679c165bbb76d217b71e537aea6e987b9262a302a5e8f685d"
       define_method(:install) do
         bin.install "vsfleet"
       end
